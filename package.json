@@ -9,14 +9,21 @@
     "web": "expo start --web"
   },
   "dependencies": {
+    "autoprefixer": "^10.4.15",
     "expo": "~49.0.8",
     "expo-splash-screen": "~0.20.5",
     "expo-status-bar": "~1.6.0",
     "react": "18.2.0",
-    "react-native": "0.72.4"
+    "react-native": "0.72.4",
+    "standard": "^17.1.0"
   },
   "devDependencies": {
     "@babel/core": "^7.20.0"
+  },
+  "eslintConfig": {
+    "extends": [
+      "./node_modules/standard/eslintrc.json"
+    ]
   },
   "private": true
 }
